@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Jordon Ng">
 
     <title>Jordon S. Ng's Personal Homepage</title>
 
@@ -20,6 +20,11 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom Hover Effects -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/set1.css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -107,11 +112,15 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <h4>Unity3D Video Game</h4>
-                                    <p>Built GUI/UX elements and split screen using C# scripts</p>
-                                        <a href = "https://github.com/the-jsng/SpinOut" style = "color: #000000">
-                                            <img class="img-portfolio img-responsive" src="img/portfolio-1.png">
-                                        </a>
+                                <figure class="effect-bubba">
+                                    <a href = "https://github.com/the-jsng/SpinOut">
+                                        <img class="img-portfolio img-responsive" src="img/portfolio-1.png">
+                                        <figcaption>
+                                        <h2>Unity3D <span>Video Game</span></h2>
+                                        <p>Built GUI/UX elements and split screen using C# scripts.</p>
+                                        </figcaption>
+                                    </a>
+                                </figure>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -224,7 +233,7 @@
     <script type="text/javascript">
     var sc_project=10368186;
     var sc_invisible=1;
-    var sc_security="a8fd83b2"; 
+    var sc_security="a8fd83b2";
     var scJsHost = (("https:" == document.location.protocol) ?
     "https://secure." : "http://www.");
     document.write("<sc"+"ript type='text/javascript' src='" +
